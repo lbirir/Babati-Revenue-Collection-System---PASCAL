@@ -1,0 +1,9 @@
+unit maths;
+interface
+function square(x:integer):integer;
+implementation
+function square;
+begin
+square:=x*x;
+end;
+end.

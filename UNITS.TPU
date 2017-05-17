@@ -1,0 +1,24 @@
+unit trial;
+
+interface
+
+procedure add(var x:integer);
+procedure multi(var x:integer);
+
+ implementation
+
+procedure add;
+
+ begin
+  x:=x+20;
+  writeln(' when you add your answer is: ',x);
+ end;
+
+procedure multi;
+ begin
+  x:=x*10;
+  writeln(' when you multiply your answer is :',x);
+ end;
+
+ end.
+
